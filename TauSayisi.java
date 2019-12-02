@@ -1,3 +1,4 @@
+//Girilen sayı tam bölünenlerin adedine de tam bölünüyorsa bu sayı bir Tau Sayısıdır.
 import java.util.Scanner;
 public class TauSayisi {
 
@@ -6,7 +7,7 @@ public class TauSayisi {
 		int sayi;
 		
 		Scanner sayiGir=new Scanner(System.in);
-		System.out.println("L�tfen istediginiz sayiyi giriniz :");
+		System.out.println("Lütfen istediginiz sayiyi giriniz :");
 		sayi=sayiGir.nextInt();
 		
 		while(i!=sayi+1) {
